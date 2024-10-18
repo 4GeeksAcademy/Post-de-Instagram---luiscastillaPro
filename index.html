@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    
 <body>
     <div class="container w-100 p-3">
         <div class="nav text-bg-light p-3 d-flex justify-content-between">
@@ -154,59 +155,98 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="tab-pane fade w-75 m-auto" id="profile-tab-pane" role="tabpanel"
-                    aria-labelledby="profile-tab" tabindex="0">
-                    <div class="border p-2 mb-2">
-                        <div class="header-2 m-2">
-                            <div class="d-flex justify-content-between">
-                                <h4> My Crazy dog Spark</h4>
-                                <p>08/26</p>
+                <div class="tab-pane fade w-75 m-auto" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                    <div class="post mb-4 bg-dark text-white rounded">
+                        <div class="post-header d-flex justify-content-between align-items-center mb-2">
+                            <div class="d-flex align-items-center">
+                                <img src="https://via.placeholder.com/40" class="rounded-circle" alt="Avatar" style="width: 40px;">
+                                <div class="ms-2">
+                                    <h6 class="mb-0 text-white">John Doe</h6>
+                                    <small class="">New York, USA - 10h</small>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis text-white"></i>
+                        </div>
+                        <div class="post-image mb-2">
+                            <img class="w-100 rounded" src="https://www.marthadebayle.com/wp-content/uploads/2021/07/Dia-mundial-del-perro.jpg" alt="Publicación">
+                        </div>
+                        <div class="post-icons d-flex justify-content-between align-items-center">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-heart me-3"></i>
+                                <i class="fa-solid fa-comment me-3"></i>
+                                <i class="fa-solid fa-share"></i>
                             </div>
                         </div>
-                        <div class="imagen-2">
-                            <img class="w-100 p-3" src="https://www.marthadebayle.com/wp-content/uploads/2021/07/Dia-mundial-del-perro.jpg" alt="">
-                        </div>
-                        <div class="footer-2">
-                            <h4>204 likes</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut
-                                modi alias sint expedita molestias voluptates, aperiam, mollitia nulla
-                                exercitationem sit. Quasi eaque totam ratione assumenda tempora!</p>
+                
+                        <div class="container-card-1">
+                            <small class="">164 Me gusta</small>
+                        <p class="mb-1 text-white"><strong>John Doe:</strong>"La felicidad está en las pequeñas cosas, como los paseos con este amigo peludo 🐾❤️</p>
+                        <p> #VidaConPerros #DogLovers #AventurasCaninas"</p>
+                        <small class="">Ver los 3 comentarios</small>
+                        <p class=" mb-0"><strong>Alice:</strong> ¡Qué adorable!</p>
+                        <p class=""><strong>Mark:</strong> Se ve muy feliz.</p>
+                        <small class="">Añade un comentario...</small>
                         </div>
                     </div>
-                    <div class="border p-2 mb-2">
-                        <div class="header-2">
-                            <div class="d-flex justify-content-between">
-                                <h4> my beautiful city</h4>
-                                <p>08/27</p>
+                    <div class="post border-0 p-3 mb-4 bg-dark text-white rounded">
+                        <div class="post-header d-flex justify-content-between align-items-center mb-2">
+                            <div class="d-flex align-items-center">
+                                <img src="https://via.placeholder.com/40" class="rounded-circle" alt="Avatar" style="width: 40px;">
+                                <div class="ms-2">
+                                    <h6 class="mb-0 text-white">Jane Smith</h6>
+                                    <small class="">Paris, France - 10h</small>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis text-white"></i>
+                        </div>
+                        <div class="post-image mb-2">
+                            <img class="w-100 rounded" src="https://www.francetourisme.fr/media/ILLU_TOUTBUS/illuminations-de-paris-2.jpg" alt="Publicación">
+                        </div>
+                        <div class="post-icons d-flex justify-content-between align-items-center mb-2">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-heart me-3"></i>
+                                <i class="fa-solid fa-comment me-3"></i>
+                                <i class="fa-solid fa-share"></i>
                             </div>
                         </div>
-                        <div class="imagen-2">
-                            <img class="w-100 p-3" src="https://www.francetourisme.fr/media/ILLU_TOUTBUS/illuminations-de-paris-2.jpg" alt="">
-                        </div>
-                        <div class="footer-2">
-                            <h4>128 likes</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut
-                                modi alias sint expedita molestias voluptates, aperiam, mollitia nulla
-                                exercitationem sit. Quasi eaque totam ratione assumenda tempora!</p>
-                        </div>
+                        <small class="">128 Me gusta</small>
+                        <p class="mb-1 text-white"><strong>Jane Smith:</strong>"No hay nada como perderse en las luces de París ✨🇫🇷</p>
+                        <p>#ParisJeTAime #LuzDeLaCiudad #SueñosDeViaje"</p>
+                        <small class="">Ver los 5 comentarios</small>
+                        <p class=" mb-0"><strong>Emily:</strong> ¡Hermosa toma!</p>
+                        <p class=""><strong>Michael:</strong> ¡Quiero ir!</p>
+                        <small class="">Añade un comentario...</small>
                     </div>
-                    <div class="border p-2 mb-2">
-                        <div class="header-2">
-                            <div class="d-flex justify-content-between">
-                                <h4> the bike of my dreams</h4>
-                                <p>08/26</p>
+                    <div class="post border-0 p-3 mb-4 bg-dark text-white rounded">
+                        <div class="post-header d-flex justify-content-between align-items-center mb-2">
+                            <div class="d-flex align-items-center">
+                                <img src="https://via.placeholder.com/40" class="rounded-circle" alt="Avatar" style="width: 40px;">
+                                <div class="ms-2">
+                                    <h6 class="mb-0 text-white">Mike Johnson</h6>
+                                    <small class="">Los Angeles, USA - 10h</small>
+                                </div>
+                            </div>
+                            <i class="fa-solid fa-ellipsis text-white"></i>
+                        </div>
+                        <div class="post-image mb-2">
+                            <img class="w-100 rounded" src="https://blog.inducascos.com/wp-content/uploads/moto_02.jpg" alt="Publicación">
+                        </div>
+                        <div class="post-icons d-flex justify-content-between align-items-center mb-2">
+                            <div class="d-flex">
+                                <i class="fa-solid fa-heart me-3"></i>
+                                <i class="fa-solid fa-comment me-3"></i>
+                                <i class="fa-solid fa-share"></i>
                             </div>
                         </div>
-                        <div class="imagen-2">
-                            <img class="w-100 p-3" src="https://blog.inducascos.com/wp-content/uploads/moto_02.jpg" alt="">
-                        </div>
-                        <div class="footer-2">
-                            <h4>2209 likes</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ut dolores quasi aut
-                                modi alias sint expedita molestias voluptates, aperiam, mollitia nulla
-                                exercitationem sit. Quasi eaque totam ratione assumenda tempora!</p>
-                        </div>
+                        <small class="">2209 Me gusta</small>
+                        <p class="mb-1 text-white"><strong>Mike Johnson:</strong>"Libertad en dos ruedas 🏍️🌅 Nada como sentir el viento en la carretera.</p>
+                        <p>#VidaSobreRuedas #MotoLovers #SueñoMotero"</p>
+                        <small class="">Ver los 50 comentarios</small>
+                        <p class=" mb-0"><strong>Tom:</strong> ¡Increíble!</p>
+                        <p class=""><strong>Paul:</strong> ¡Qué belleza!</p>
+                        <small class="">Añade un comentario...</small>
                     </div>
+                
                 </div>
             </div>
         </div>

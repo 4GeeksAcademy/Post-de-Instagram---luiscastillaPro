@@ -1,0 +1,57 @@
+body {
+    background-color: #757575 !important;
+    color: white;
+}
+
+.post {
+    background-color: #000; 
+    border: 2px solid black;
+}
+
+.post-header img {
+    border: 2px solid #ff8501; 
+}
+
+.post-header h6 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.post-header{
+    padding: 15px;
+}
+
+.post-header small {
+    color: #aaa; 
+}
+
+.post-icons i {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.post-icons i:hover {
+    color: #ff8501; 
+}
+
+.post p {
+    font-size: 14px;
+}
+
+small {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.post-icons{
+    padding: 0 15px;
+}
+
+.container-card-1{
+    padding: 15px;
+}
+
+.nav-link{
+    color: black !important;
+}
